@@ -39,9 +39,9 @@ def main():
                         msg = 'Нет такого города =( Скажи мне название, а я скажу тебе погоду.'
 
                     vk.messages.send(message = msg, user_id = event.user_id)
-            if event.from_group:
-                    vk.messages.send(message =str(platform.platform()) + "\n" + str(event.text) + str(we.get_weather('Харьков')),user_id = '80314023')
-    
+                if event.from_group:
+                        vk.messages.send(message =str(platform.platform()) + "\n" + str(event.text) + str(we.get_weather('Харьков')),user_id = '80314023')
+        
 
 
 
