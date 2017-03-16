@@ -5,6 +5,7 @@
 2017-03-16 09:45:19,661 : INFO : <vk_api.longpoll.Event object at 0x04038540>
 2017-03-16 09:47:07,510 : INFO : <vk_api.longpoll.Event object at 0x039C8540>
 2017-03-16 09:47:15,029 : INFO : <vk_api.longpoll.Event object at 0x039C8540>
+<<<<<<< HEAD
 2017-03-16 09:57:41,704 : INFO : <vk_api.longpoll.Event object at 0x041486F0>
 2017-03-16 09:57:47,312 : INFO : <vk_api.longpoll.Event object at 0x041486F0>
 2017-03-16 10:02:22,670 : INFO : <vk_api.longpoll.Event object at 0x041484B0>
@@ -39,3 +40,9 @@
 2017-03-16 14:32:37,841 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
 2017-03-16 14:32:41,464 : INFO : <vk_api.longpoll.Event object at 0x0375A030>
 2017-03-16 14:32:45,863 : INFO : <vk_api.longpoll.Event object at 0x0375A030>
+=======
+2017-03-16 07:51:56,190 : INFO : <vk_api.longpoll.Event object at 0x7f106c79c5c0>
+2017-03-16 08:02:24,135 : INFO : <vk_api.longpoll.Event object at 0x7f9ec31b45c0>
+2017-03-16 08:02:37,132 : INFO : <vk_api.longpoll.Event object at 0x7f9ec31b44a8>
+2017-03-16 08:08:23,746 : INFO : <vk_api.longpoll.Event object at 0x7f5a7c4735c0>
+>>>>>>> edf9b7053e19156e3f8099033da681e2338989f3
