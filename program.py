@@ -4,12 +4,15 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import json
 import platform
 import logging
-logging.basicConfig(filename='main.log', level = logging.INFO,
+logging.basicConfig(filename='/main.log', level = logging.INFO,
    format = '%(asctime)s : %(levelname)s : %(message)s')
 
 import mi_weather as we
-
-with open('config.json') as json_data_file:
+import os
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_path = "config.json"
+abs_file_path = os.path.join(script_dir, rel_path)
+with open(abs_file_path) as json_data_file:
     config = dict(json.load(json_data_file))    
 _login = config['login']
 _password = config['pass']
