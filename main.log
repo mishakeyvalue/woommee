@@ -5,3 +5,6 @@
 2017-03-16 09:45:19,661 : INFO : <vk_api.longpoll.Event object at 0x04038540>
 2017-03-16 09:47:07,510 : INFO : <vk_api.longpoll.Event object at 0x039C8540>
 2017-03-16 09:47:15,029 : INFO : <vk_api.longpoll.Event object at 0x039C8540>
+2017-03-16 07:51:56,190 : INFO : <vk_api.longpoll.Event object at 0x7f106c79c5c0>
+2017-03-16 08:02:24,135 : INFO : <vk_api.longpoll.Event object at 0x7f9ec31b45c0>
+2017-03-16 08:02:37,132 : INFO : <vk_api.longpoll.Event object at 0x7f9ec31b44a8>
