@@ -4,16 +4,13 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import json
 import platform
 import logging
-<<<<<<< HEAD
 import pymorphy2
-logging.basicConfig(filename='main.log', level = logging.INFO,
-=======
 logging.basicConfig(filename='/main.log', level = logging.INFO,
->>>>>>> edf9b7053e19156e3f8099033da681e2338989f3
    format = '%(asctime)s : %(levelname)s : %(message)s')
 
 import mi_weather as we
 import os
+
 script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
 rel_path = "config.json"
 abs_file_path = os.path.join(script_dir, rel_path)
