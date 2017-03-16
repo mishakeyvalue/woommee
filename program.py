@@ -45,6 +45,8 @@ def main():
                             answer =str("Погода в {3} на {4}\nТемпература от {0} до {1}. {2}\nВосход: {5}\nЗакат:{6}".format(w['min_t'], w['max_t'], w['descr'],morph.parse(w["city"])[0].inflect({"loc2"})[0].title(),w["date"],w["sunrise"],w["sunset"]))
                         except ValueError as err:
                             logging.info('Word isnt a city: ')
+                        except Exception as e:
+                            logging.info(str(e))
                     vk.messages.send(message = answer, user_id = event.user_id)
                 if event.from_group:
                         vk.messages.send(message =str(platform.platform()) + "\n" + str(event.text) + str(we.get_weather('Харьков')),user_id = '80314023')
