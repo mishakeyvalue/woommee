@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"+380731398868": {"remixsid": "21ef16b20b23ee7441dd4414ae6f23269b7b0c56144becb124e9a", "forapilogin": {"p": "bfa41df54dde2765b531e1b07ce387ff8e08e23a7ab0f616f0960", "l": "414460724"}, "token": {"access_token": "25fa96596a541f3765ebd35a1b19d62dbb59a45d2ef31519e76b65ab44cd62917ab45f22dc75a00ff872d", "expires_in": "0", "user_id": "414460724"}}}
-=======
-{"+380731398868": {"remixsid": "95448a08a72e2d37b3f7b627c6229319dd9e1778bb056926e6652", "token": {"access_token": "25fa96596a541f3765ebd35a1b19d62dbb59a45d2ef31519e76b65ab44cd62917ab45f22dc75a00ff872d", "expires_in": "0", "user_id": "414460724"}, "forapilogin": {"l": "414460724", "p": "f018339da20ad5abfca700a76195279eee8df8541b83a2f96eac2"}}}
->>>>>>> edf9b7053e19156e3f8099033da681e2338989f3
+{"+380731398868": {"remixsid": "ab0c047e5c2b98cead22e60f457e5b18596fedcb50438e31d9108", "forapilogin": {"p": "bfe4986fbd2ababed24baf3f3bd4f6cbbc67de0f886320684f8bc", "l": "414460724"}, "token": {"access_token": "4e862fcff26b0e2aee1557e7f321484a14d329787afbbb96c105cf4edfbfa933e5bed62caccfd1f2dc7f8", "expires_in": "0", "user_id": "414460724"}}}

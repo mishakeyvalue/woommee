@@ -4,12 +4,9 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import json
 import platform
 import logging
-<<<<<<< HEAD
 import pymorphy2
+
 logging.basicConfig(filename='main.log', level = logging.INFO,
-=======
-logging.basicConfig(filename='/main.log', level = logging.INFO,
->>>>>>> edf9b7053e19156e3f8099033da681e2338989f3
    format = '%(asctime)s : %(levelname)s : %(message)s')
 
 import mi_weather as we
@@ -23,6 +20,15 @@ _login = config['login']
 _password = config['pass']
 _my_id = '80314023'
 morph = pymorphy2.MorphAnalyzer()
+
+
+CHARS_ALLOWED = 'йцукенгшщзхъэждлорпавыфюбьтимсчя'
+def clean_word(word):
+    for ch in word:
+        if ch not in CHARS_ALLOWED:
+            word = word.replace(ch, '')
+    return word
+
 def main():
     
 
@@ -44,7 +50,7 @@ def main():
                     
                     for word in msg_text.split():
                         try:
-                            w = we.get_weather(morph.normal_forms(word)[0])
+                            w = we.get_weather(morph.normal_forms(clean_word(word))[0])
                             answer =str("Погода в {3} на {4}\nТемпература от {0} до {1}. {2}\nВосход: {5}\nЗакат:{6}".format(w['min_t'], w['max_t'], w['descr'],morph.parse(w["city"])[0].inflect({"loc2"})[0].title(),w["date"],w["sunrise"],w["sunset"]))
                         except ValueError as err:
                             logging.info('Word isnt a city: ')

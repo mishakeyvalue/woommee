@@ -46,3 +46,17 @@
 2017-03-16 08:02:37,132 : INFO : <vk_api.longpoll.Event object at 0x7f9ec31b44a8>
 2017-03-16 08:08:23,746 : INFO : <vk_api.longpoll.Event object at 0x7f5a7c4735c0>
 >>>>>>> edf9b7053e19156e3f8099033da681e2338989f3
+2017-03-16 18:55:57,060 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 18:55:57,697 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 18:56:37,301 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 18:56:37,789 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 18:58:35,829 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 18:58:38,868 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 18:59:03,290 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 18:59:03,554 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 19:02:05,619 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 19:02:05,671 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 19:02:22,068 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-16 19:02:22,120 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-16 19:03:09,036 : INFO : <vk_api.longpoll.Event object at 0x04104030>
+2017-03-16 19:03:09,240 : INFO : Word isnt a city: 
