@@ -1,8 +1,11 @@
 import vk_api
 from vk_api.longpoll import VkLongPoll, VkEventType
+import json
 
-_login = '+380731398868'
-_password = 'oJolgolo243VK'
+with open('config.json') as json_data_file:
+    config = dict(json.load(json_data_file))    
+_login = config['login']
+_password = config['pass']
 _my_id = '80314023'
 
 def main():
