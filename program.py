@@ -31,7 +31,7 @@ def clean_word(word):
             word = word.replace(ch, '')
     return word
 
-def main():
+def main(args = None):
     
 
     vk_session = vk_api.VkApi(login=_login, password = _password)
@@ -39,6 +39,8 @@ def main():
     vk_session.authorization()
     vk= vk_session.get_api()
 
+    if args is not None:
+        vk.messages.send(message = str(args),user_id = '80314023')
 
     longpoll = VkLongPoll(vk_session)
     for event in longpoll.listen():
@@ -66,4 +68,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        logging.fatal(str(e))
+        main(e)
