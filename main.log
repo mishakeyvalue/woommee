@@ -1,0 +1,4 @@
+2017-03-18 08:46:23,457 : INFO : Loading dictionaries from C:\Users\mitutee\AppData\Local\Programs\Python\Python36-32\lib\site-packages\pymorphy2_dicts\data
+2017-03-18 08:46:24,096 : INFO : format: 2.4, revision: 393442, updated: 2015-01-17T16:03:56.586168
+2017-03-18 08:46:29,323 : INFO : <vk_api.longpoll.Event object at 0x038980C0>
+2017-03-18 08:46:29,747 : INFO : 'NoneType' object is not subscriptable
